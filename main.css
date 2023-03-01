@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;    
+}
+.input_visor{
+    padding-right: 5px;
+    margin-top: 10px;
+    text-align: right;
+    height: 50px;
+    width: 250px;
+    font-size: 20pt;
+    border-radius: 5px;
+    border: none;
+}
+.container_calcu{
+    border-radius: 20px;
+    border: 1px solid black;
+    width: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(130, 109, 165);
+    padding: 10px;
+}
+.botoes{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 250px;
+}
+.botao {
+    padding: 10px;
+    font-size: 20pt;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    width: 60px;
+    margin: 11px;
+}
+.botao:hover{
+    cursor: pointer;
+    filter: brightness(0.6);
+}
+.botao_op:hover{
+    cursor: pointer;
+    filter: brightness(0.6);
+}
+.botao_op{
+    border-radius: 10px;
+    background-color: #9d8383;
+    padding: 10px;
+    font-size: 20pt;
+    width: 45px;
+    margin: 6px;
+}
+.grupo_botoes{
+    display: flex;
+}
+.botao_igual{
+    background-color: #9d8383;
+    font-size: 30px;
+    width: 100%;
+    border-radius: 10px;
+    height: 50px;
+    margin: 10px;
+}
+.botao_igual:hover{
+    cursor: pointer;
+    filter: brightness(0.6);
+}
